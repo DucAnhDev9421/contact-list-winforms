@@ -16,17 +16,5 @@ namespace ContactList
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            // Tạo một thể hiện mới của AddContactForm
-            AddContactForm addContactForm = new AddContactForm();
-
-            // Hiển thị AddContactForm
-            addContactForm.Show();
-
-            // Hoặc nếu bạn muốn Form1 bị ẩn đi cho đến khi AddContactForm đóng lại:
-            // addContactForm.ShowDialog(); 
-        }
     }
 }
